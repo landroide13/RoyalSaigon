@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Resto App
 
-Things you may want to cover:
+* Ruby version 2.4
 
-* Ruby version
+* Bootstrap 4.
 
-* System dependencies
+* Helper on Views and Concerns.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Use Devise for the Usal Clients.
