@@ -6,7 +6,7 @@ class Item < ApplicationRecord
   after_initialize :set_default
 
   def set_default
-    self.image ||= Placeholder.image(height: '350', width: '150')
+    self.image ||= Placeholder.image(height: '600', width: '400')
   end
 
 
