@@ -6,6 +6,11 @@
 </video>
 
 
-
+<ul>
+  <% @items.each do |i| %>
+    <li><%= i.name %></li>
+    <li><%= i.description %></li>
+  <% end %>
+</ul>
 
 
