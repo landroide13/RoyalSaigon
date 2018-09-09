@@ -6,10 +6,11 @@
 </video>
 
 
-<ul>
+<ul class="nolist">
   <% @items.each do |i| %>
     <li><%= i.name %></li>
     <li><%= i.description %></li>
+    <li><%= image_tag i.image unless i.image.nil? %></li>
     <li><%= i.price %></li>
   <% end %>
 </ul>
